@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="tang" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+
+	<title>颜色选择器</title>
+
+	<link rel="stylesheet" type="text/css" href="color-selector.css" />
+</head>
+<body>
+	<section class="main">
+		<div>
+			<canvas id="canvas" width="256" height="256">你的浏览器不支持canvas</canvas>
+		</div>
+		<div>
+			0 <input type="range" id="range" min=0 max=255 step=1 value=186 /> 255<span id="range-value">186</span>
+		</div>
+		<div id="temp-color-bar" class="none"></div>
+	</section>
+	
+	<aside class="aside-right">
+		<div>from <a href="https://xiaomingtang.github.io/blog/" target="_blank">xiaoming</a></div>
+		<ul id="color-list"></ul>
+	</aside>
+	
+	<script type="text/javascript" src="myjs.js" ></script>
+	<script type="text/javascript" src="color-selector.js" ></script>
+</body>
+</html>

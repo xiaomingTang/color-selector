@@ -1,0 +1,53 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.main{
+	width: 256px;
+	float: left;
+	margin-right: 4em;
+	text-align: center;
+}
+.aside-right{
+	float: left;
+}
+.color-list-color{
+	display: inline-block;
+	width: 4em;
+	height: 2em;
+	border-radius: 8px;
+}
+#temp-color-bar{
+	position: absolute;
+	width: 4em;
+	height: 4em;
+	border-radius: 2em;
+}
+#temp-color-bar.none{
+	display: none;
+}
+#color-list{
+	width: 27em;
+}
+#color-list > li{
+	display: inline-block;
+	margin: 0.5em 0.1em;
+	width: 13em;
+	height: 2em;
+	line-height: 2em;
+	list-style-type: none;
+}
+.color-list-color{
+	float: right;
+}
+#range-value{
+	margin-left: 1em;
+	color: #c78;
+}
+
+
+
+
+
+
